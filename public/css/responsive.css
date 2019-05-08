@@ -1,13 +1,60 @@
-@media (max-width:767px) {
+@media (max-width:768px) {
     .slick-slider {
         width:auto;
+    }
+    .testimonialsBox {
+        padding:25px;
+    }
+    .ourTeam p.teamText {
+        padding:0 40px;
+    }
+    .service-title {
+        padding:0 40px;
+    }
+    .innerBanner {
+        background-position: 130px 288px;
+    }
+}
+@media (max-width: 767px) {
+    .member-photo img {
+        width:100%;
+        height: auto;
     }
 }
 
 @media(max-width:576px) {
+    .banner {
+        min-height: 80vh;
+        max-height: 80vh;
+    }
+    .innerBanner {
+        background:none;
+    }
+.readMoreBtn {
+    margin-bottom: 25px;
+}
+    .bannerContent {
+        position: absolute;
+        top: 35%;
+        left: 40%;
+        transform: translate(-40%, -35%);
+        width: 90%;
+    }
+    .bannerContent h1 {
+        font-size:21px;
+    }
     .rightQuote {
         right:0;
 
+    }
+    .ourTeam p.teamText {
+        padding:0 12px;
+    }
+    .service-title {
+        padding:0 12px;
+    }
+    .testimonialsBox {
+        padding:0px;
     }
     .smb10 {
         margin-bottom: 10px;

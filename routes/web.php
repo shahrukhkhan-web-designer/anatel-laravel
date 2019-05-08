@@ -17,3 +17,7 @@ Route::get('/','HomeController@index')->name('home');
 //Route::get('/', function () {
 //    return view('index');
 //});
+Route::get('about-us', 'HomeController@about');
+Route::get('our-business', 'HomeController@business');
+Route::get('careers', 'HomeController@careers');
+Route::get('contact-us', 'HomeController@contact');

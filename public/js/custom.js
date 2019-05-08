@@ -10,8 +10,17 @@ $(document).ready(function() {
         // otherwise change it back to relative
         if (scrollTop > stickyNavTop) {
             $('nav').addClass('sticky');
+            $('.change-logo').attr('src','img/anatel-logo2.png');
+            $('.navbar').css('background', '#fff!important');
+            $('.navbar').css('height', '60px');
+            $('.navbar-nav > li > a').css('color', '#333');
         } else {
             $('nav').removeClass('sticky');
+            $('.change-logo').attr('src','img/anatel-ventures-white.png');;
+            $('.navbar').css('background', 'transparent');
+            $('.navbar').css('height', '80px');
+            $('.navbar-nav > li > a').css('color', '#fff');
+
         }
     };
 

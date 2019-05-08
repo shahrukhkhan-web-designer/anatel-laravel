@@ -23,5 +23,20 @@ class HomeController extends Controller
         return view('home.index');
     }
 
+    public function about() {
+        return view('about.about');
+    }
+    public function contact() {
+        return view('contact.contact');
+    }
+    public function business() {
+        return view('business.business');
+}
+public function careers() {
+        return view('careers.careers');
+}
+
+
+
 
 }

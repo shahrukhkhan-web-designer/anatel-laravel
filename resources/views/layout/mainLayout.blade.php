@@ -11,6 +11,7 @@
     <title>Anatel Ventures PVT LTD</title>
     <script src="js/jquery.js" ></script>
     @yield('meta-tag')
+
 </head>
 <body>
 
