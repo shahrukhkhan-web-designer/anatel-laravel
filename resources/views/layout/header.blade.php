@@ -36,9 +36,9 @@
 
 <nav class="navbar navbar-expand-md bottom-header navbar-fixed-top">
     <div class="container">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="{{url('/')}}">
 {{--            <img src="img/anatel-logo2.png" alt="">--}}
-            <img src="img/anatel-ventures-white.png" class="change-logo" alt="">
+            <img src="img/anatel-ventures-white.png" class="change-logo" alt="brand">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"><i class="fa fa-bars"></i></span>

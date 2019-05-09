@@ -2,8 +2,10 @@
 @section('meta-tag')
     @endsection
 @section('content')
+    <section class="about-us-top">
 
-    <section class="contact-us mb-30 mt-30">
+    </section>
+    <section class="contact-us mb-30">
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3502.4950962468515!2d77.36154861455918!3d28.614920091629862!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce539757e597f%3A0xed782325458142fc!2sAnrari!5e0!3m2!1sen!2sin!4v1556805587396!5m2!1sen!2sin" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
         <div class="container">
             <div class="row">

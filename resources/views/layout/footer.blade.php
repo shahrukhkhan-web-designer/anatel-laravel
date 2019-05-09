@@ -20,10 +20,10 @@
                     <div class="bottomBox  pl-50">
                         <h3>Quick Links</h3>
                         <ul>
-                            <li><a href="">Home</a></li>
-                            <li><a href="">About</a></li>
-                            <li><a href="">Business</a></li>
-                            <li><a href="career.html">Careers</a></li>
+                            <li><a href="/">Home</a></li>
+                            <li><a href="about-us">About</a></li>
+                            <li><a href="our-business">Business</a></li>
+                            <li><a href="careers">Careers</a></li>
                             <li><a href=""></a></li>
                         </ul>
                     </div>

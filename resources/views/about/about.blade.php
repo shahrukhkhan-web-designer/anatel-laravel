@@ -2,7 +2,7 @@
 @section('meta-tag')
     @endsection
 @section('content')
-
+<section class="about-us-top"></section>
     <section class="about-us mb-30">
         <div class="aboutMain paddingSpace">
             <h1>About Us</h1>

@@ -144,7 +144,7 @@ nav {
 }
 .innerBanner {
     background:url(../img/banner-front.png) no-repeat;
-    background-position: 130px 180px;
+    background-position: 130px 268px;
     background-size:100%;
     min-height: 100vh;
     max-height: 100vh;
@@ -292,28 +292,6 @@ ul.social-list li:last-child a i {
     -webkit-transition: all 0.3s ease-in-out;
     -o-transition: all 0.3s ease-in-out;
 }
-/*.navbar-nav > li > a:after {*/
-/*    position: absolute;*/
-/*    bottom: 0;*/
-/*    content: '';*/
-/*    left: 50%;*/
-/*    display: block;*/
-/*    height: 5px;*/
-/*    width: 5px;*/
-/*    opacity: 0;*/
-/*    margin: 0 0 -3px -2px;*/
-/*    -webkit-transform: rotate(45deg);*/
-/*    -moz-transform: rotate(45deg);*/
-/*    -ms-transform: rotate(45deg);*/
-/*    -o-transform: rotate(45deg);*/
-/*    transform: rotate(45deg);*/
-/*    position: absolute;*/
-/*}*/
-/*.navbar-nav > li.active > a::after {*/
-/*    opacity: 1;*/
-/*    background:#ff7800;*/
-/*}*/
-
 
 
 .big-title {
@@ -377,8 +355,11 @@ section.services {
 }
 .serviceBox {
     padding:20px;
-
-
+    transition:all .4s ease-in-out;
+}
+.serviceBox:hover .icon-img img{
+    transition:all .4s ease-in-out;
+transform:scale(1.04);
 }
 .mb-40  {
     margin-bottom: 40px;
@@ -451,10 +432,12 @@ our Team
     background:#fff;
     padding:25px;
 }
+
 .member-photo img {
     width:200px;
     height:200px;
 }
+
 .name-info {
 
     text-align: center;
@@ -552,17 +535,24 @@ footer ul {
     margin-bottom: 15px;
 }
 /* About Page */
-.about-us{
-
+.about-us-top{
+margin-top:-80px;
+    background:url("../img/small-banner.jpg") no-repeat center center;
+    background-size:cover;
+    height: 80px;
 }
 .aboutMain {
-    background-image: linear-gradient(to right, rgb(255, 255, 255), rgb(255, 120, 0),rgb(255, 120, 0),rgb(255, 255, 255));
+    background:url('../img/our-team-small.jpg') center center no-repeat;
+    backgroud-size:cover;
+
 }
 .about-us h1 {
     text-align: center;
     text-transform: uppercase;
-    color:#fff;
+    color:#000;
+    margin: 0;
 }
+
 .visionContent, .missionContent,
 .valuesContent {
     padding: 12px 20px;
@@ -656,4 +646,95 @@ section.business article {
     color: #fff;
     box-shadow: -3px 3px 1px -1px rgba(0,0,0,.4);
     text-decoration: none;
+}
+
+.joinUs {
+    background: #f0f0f0;
+    padding:70px;
+}
+.joinUs h2 {
+    text-transform: uppercase;
+    margin-bottom: 40px;
+    
+
+}
+.pd-0 {
+    padding:0!important;
+}
+.carrerFormImg {
+    background:url("../img/careersForm.jpg") center center no-repeat;
+    background-size:cover;
+    min-height:458px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+.carrerFormImg img {
+    width:170px;
+}
+.pt-92 {
+    padding-top: 125px;
+}
+.careerform {
+    padding:30px;
+    background:#fff;
+    border-bottom-right-radius: 25px;
+    border-top-right-radius: 25px;
+    min-height: 458px;
+}
+input[type="file"] {
+    border: none;
+    outline: none;
+    padding: 0px;
+    border-bottom: 1px solid;
+}
+.inner-addon {
+    position: relative;
+    margin-bottom: 10px;
+}
+.inner-addon .fa-user,
+.inner-addon .fa-envelope,
+.inner-addon .fa-phone,
+.inner-addon .fa-comments-o,
+.inner-addon .fa-map-marker{
+    position: absolute;
+    padding: 10px;
+    pointer-events: none;
+}
+
+/* align icon */
+.left-addon .fa-user,
+.left-addon .fa-envelope,
+.left-addon .fa-phone,
+.left-addon .fa-comments-o,
+.left-addon .fa-map-marker{ left:  0px;
+    line-height: 21px;
+    color: #848484;}
+.right-addon .fa-user,
+.right-addon .fa-envelope,
+.right-addon .fa-phone,
+.right-addon .fa-comments-o,
+.right-addon .fa-map-marker{ right: 0px;}
+
+/* add padding  */
+.left-addon input, .left-addon textarea { padding-left:  30px; }
+.right-addon input { padding-right: 30px; }
+
+.careerform input[type="text"], .careerform textarea {
+    border:none;
+    border-bottom:1px solid #333;
+    font-size: 14px;
+    outline: 0;
+    color:#848484;
+}
+.form-control {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+}
+.careerform input[type="submit"] {
+    background:#ff7701;
+    color:#fff;
+    border:0;
+    outline: 0;
+    padding: 9px 33px;
 }

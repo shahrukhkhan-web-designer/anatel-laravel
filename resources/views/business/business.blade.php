@@ -3,6 +3,9 @@
     @endsection
 @section('content')
 
+    <section class="about-us-top">
+
+    </section>
     <section class="business mt-30 mb-30">
         <div class="container">
             <article class="firstBusiness">

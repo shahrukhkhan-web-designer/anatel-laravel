@@ -164,8 +164,8 @@
 
                         </div>
                         <div class="name-info">
-                            <h3 class="Name">Shubham singh</h3>
-                            <h3 class="designation">Manager</h3>
+                            <h3 class="Name">Jeetesh Dubey</h3>
+                            <h3 class="designation">Travel Expert</h3>
                             <p class="description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident ullam voluptatum excepturi reprehenderit vero  dolores!</p>
                         </div>
 
@@ -179,9 +179,9 @@
 
                         </div>
                         <div class="name-info">
-                            <h3 class="Name">Shubham singh</h3>
-                            <h3 class="designation">Manager</h3>
-                            <p class="description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident ullam voluptatum excepturi reprehenderit vero  dolores!</p>
+                            <h3 class="Name">Vivek</h3>
+                            <h3 class="designation">Digital Marketing Manager</h3>
+                            <p class="description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident ullam voluptatum excepturi reprehenderit vero!</p>
                         </div>
 
 
@@ -194,8 +194,8 @@
 
                         </div>
                         <div class="name-info">
-                            <h3 class="Name">Shubham singh</h3>
-                            <h3 class="designation">Manager</h3>
+                            <h3 class="Name">Payal </h3>
+                            <h3 class="designation">Education Counselor</h3>
                             <p class="description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident ullam voluptatum excepturi reprehenderit vero  dolores!</p>
                         </div>
 
@@ -209,8 +209,8 @@
 
                         </div>
                         <div class="name-info">
-                            <h3 class="Name">Shubham singh</h3>
-                            <h3 class="designation">Manager</h3>
+                            <h3 class="Name">Rekha</h3>
+                            <h3 class="designation">HR Manager</h3>
                             <p class="description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident ullam voluptatum excepturi reprehenderit vero  dolores!</p>
                         </div>
 
